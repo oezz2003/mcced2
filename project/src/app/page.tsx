@@ -571,26 +571,7 @@ export default function Home({
         </div>
       </section>
       
-      {/* Partners */}
-      <section className="w-full py-16 md:py-24 bg-card">
-        <div className="container mx-auto px-4 md:px-6">
-          <h2 className="text-center text-2xl font-semibold text-muted-foreground">Trusted by Industry Leaders</h2>
-          <div className="mt-10 grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-6 items-center">
-            {partners.map((partner) => (
-              <div key={partner.name} className="flex justify-center">
-                <Image 
-                  src={partner.logo} 
-                  alt={partner.name} 
-                  width={220} 
-                  height={110} 
-                  className="transition-all grayscale opacity-60 hover:grayscale-0 hover:opacity-100 invert dark:invert-0" 
-                  data-ai-hint={partner.aiHint} 
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+     
 
       {/* Special + Quote Section */}
       <section className="w-full py-16 md:py-24 bg-background">

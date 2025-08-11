@@ -68,9 +68,9 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-semibold tracking-wider uppercase">Contact Us</h3>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-              <li>Cairo, Egypt</li>
-              <li>contact@mcced.com</li>
-              <li>+1 (234) 567-890</li>
+              <li>10th of Ramadan City, Sharkia Governorate, Egypt</li>
+              <li>ops@mcced.com</li>
+              
             </ul>
           </div>
         </div>

@@ -20,7 +20,6 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 const serviceLinks = [
-    { href: '/services/cargo-service', label: 'Cargo Service' },
     { href: '/services/air-freight', label: 'Air Freight' },
     { href: '/services/sea-freight', label: 'Sea Freight' },
     { href: '/services/road-freight', label: 'Road Freight' },
@@ -36,10 +35,10 @@ const solutionLinks = [
 ];
 
 const navLinks = [
-  { href: "/services", label: "Services", sublinks: serviceLinks },
-  { href: "/solutions", label: "Solutions", sublinks: solutionLinks },
+  { href: "/services", label: "Cargo Services", sublinks: serviceLinks },
+  { href: "/solutions", label: "Consultation ", sublinks: solutionLinks },
   { href: "/about", label: "About Us" },
-  { href: "/contact", label: "Contact Us" },
+  { href: "/contact", label: "Customers Service" },
 ];
 
 export function Header() {
@@ -59,7 +58,7 @@ export function Header() {
         <div className="container mx-auto flex h-12 items-center justify-between px-4 text-sm">
           <div className="flex items-center gap-6">
              <div className="hidden md:flex items-center gap-2">
-                <a href="/contact" className="hover:text-primary transition-colors">Customer Service</a>
+                  
             </div>
           </div>
           <div className="flex items-center gap-4">

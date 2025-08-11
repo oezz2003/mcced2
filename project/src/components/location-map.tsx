@@ -31,10 +31,7 @@ export function LocationMap() {
                     <MapPin className="h-6 w-6 text-primary" />
                     <p className="text-sm">10th of Ramadan City, Sharkia Governorate, Egypt</p>
                 </div>
-                <div className="flex items-center gap-4">
-                    <Phone className="h-6 w-6 text-primary" />
-                    <p className="text-sm">+201002434197</p>
-                </div>
+                
                 <div className="flex items-center gap-4">
                     <Mail className="h-6 w-6 text-primary" />
                     <p className="text-sm">ops@mcced.com</p>

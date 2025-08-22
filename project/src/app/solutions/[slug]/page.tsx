@@ -16,8 +16,7 @@ const solutionData = {
     image: '/images/pexels-fauxels-3183197.jpg',
     aiHint: 'business consultation meeting',
     description: [
-      "Our expert consultants work with you to analyze your current logistics and supply chain operations. We identify areas for improvement, cost reduction, and efficiency gains. Our data-driven approach ensures that our recommendations are practical, actionable, and tailored to your specific business needs.",
-      "We provide strategic guidance on everything from network design and inventory management to technology adoption and risk mitigation. Our goal is to help you build a more resilient, agile, and competitive supply chain that supports your long-term growth objectives."
+      "Effective logistics begins with a conversation, not a contract. At MCCED, our consultation service is a cornerstone of our partnership approach. Our expert team sits down with you to perform a deep dive into your current supply chain, identifying bottlenecks, inefficiencies, and untapped opportunities. We analyze your needs, your industry’s specific challenges, and your long-term business goals. Based on this thorough assessment, we provide tailored, data-driven recommendations designed to optimize your entire process. Our consultation is not just about logistics; it’s about providing strategic advice that can transform your operations, enhance your competitive edge, and set you on a path for sustainable growth. We believe that by understanding your business from the ground up, we can build a logistics solution that is truly transformative."
     ],
     features: [
       'In-depth supply chain analysis and assessment',
@@ -32,8 +31,8 @@ const solutionData = {
     image: '/images/containers-ready-to-be-shipped-logistic-global-m-2025-01-27-22-46-41-utc.jpg',
     aiHint: 'global supply chain network',
     description: [
-        "We offer comprehensive, end-to-end supply chain management services. Our integrated solutions cover every aspect of your supply chain, from procurement and sourcing to warehousing, distribution, and final-mile delivery. We act as an extension of your team, managing the complexities so you can focus on your core business.",
-        "Our global network, advanced technology platform, and industry expertise enable us to design, implement, and manage supply chains that are both efficient and resilient. We are committed to delivering visibility, reliability, and continuous improvement to drive value for your business."
+        "A supply chain is a complex ecosystem, and MCCED provides the expertise to manage it all. We view the supply chain as a continuous, end-to-end journey that encompasses every process, from the sourcing of raw materials to the final delivery of the product to the end consumer. Our role is to provide a single point of contact for this entire journey, ensuring every component—from manufacturing and inventory to transportation and distribution—works together seamlessly.",
+        "We employ advanced technology and robust network management to provide full visibility and control over your supply chain, mitigating risks, and adapting quickly to unexpected challenges. With MCCED, your supply chain is no longer a series of disconnected steps; it is a fluid, integrated system that operates with maximum efficiency and reliability."
     ],
     features: [
         'End-to-end supply chain visibility',
@@ -60,13 +59,13 @@ const solutionData = {
     ]
   },
    'business-development': {
-    title: 'Business Development',
-    image: '/images/Company Founded.jpg',
-    aiHint: 'business growth strategy chart',
-    description: [
-        "We help you identify and capitalize on new growth opportunities. Our business development services are focused on helping you expand into new markets, reach new customers, and build strategic partnerships. We provide the market intelligence, strategic planning, and hands-on support you need to succeed.",
-        "Our team works with you to understand your growth objectives and develop a customized plan to achieve them. From market entry strategy to lead generation and sales support, we provide the expertise and resources to help you accelerate your growth and achieve your business goals."
-    ],
+  title: 'Business Development',
+  image: '/images/Company Founded.jpg',
+  aiHint: 'business growth strategy chart',
+  description: [
+    "Your logistics partner should be a catalyst for growth, not just a service provider. At MCCED, we view our services as a direct driver of your business development. By providing reliable and efficient international shipping, we empower you to expand into new global markets with confidence. Our cost-effective solutions help you reduce overhead, freeing up capital to invest in innovation and expansion.",
+    "We help you meet and exceed customer expectations by ensuring timely deliveries, which enhances your brand reputation and fosters customer loyalty. We act as a strategic partner, offering insights and support that help you make informed decisions about market entry and supply chain strategy, ultimately enabling you to seize new opportunities and grow your business on a global scale."
+  ],
     features: [
         'Market research and opportunity analysis',
         'Go-to-market strategy development',

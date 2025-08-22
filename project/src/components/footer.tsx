@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 import { Logo } from "./logo";
-import { Github, Twitter, Linkedin } from "lucide-react";
+import { Linkedin, Facebook } from "lucide-react";
 
 const mainLinks = [
   { href: "/services", label: "Services" },
@@ -26,18 +26,14 @@ export function Footer() {
             <p className="mt-4 text-sm text-muted-foreground">
               On Time, Every Time, Anywhere.
             </p>
-             <div className="flex mt-4 space-x-4">
-              <Link href="#" className="text-muted-foreground hover:text-foreground">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link href="#" className="text-muted-foreground hover:text-foreground">
-                <Github className="h-5 w-5" />
-                <span className="sr-only">Github</span>
-              </Link>
+            <div className="flex mt-4 space-x-4">
               <Link href="#" className="text-muted-foreground hover:text-foreground">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
+              </Link>
+              <Link href="https://www.facebook.com/profile.php?id=61578331567426" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
+                <Facebook className="h-5 w-5" />
+                <span className="sr-only">Facebook</span>
               </Link>
             </div>
           </div>

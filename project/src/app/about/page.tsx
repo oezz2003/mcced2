@@ -62,47 +62,33 @@ export default function AboutPage({
           <div className="lg:col-span-2">
             <div className="prose max-w-none">
               <div className="w-16 h-1 bg-primary mb-4"></div>
-              <h2 className="text-3xl font-bold font-headline mb-4">Who We Are</h2>
-              <Image
-                src="/images/group-of-workers-in-an-empty-container-storage-yar-2025-01-08-09-17-31-utc.jpg"
-                alt="Who We Are"
-                width={800}
-                height={400}
-                className="rounded-lg shadow-md mb-6"
-                data-ai-hint="team work warehouse"
-              />
-              <p className="text-muted-foreground">
-                MCCED makes business flow. As one of the world's leading non-asset-based supply chain management companies, we design and implement industry-leading solutions in both freight management and contract logistics.
+              <h2 className="text-3xl font-bold font-headline mb-4">About Us</h2>
+              <p className="text-muted-foreground mb-4">
+                MCCED is a premier logistics and worldwide shipping company strategically headquartered in Egypt, a nation at the crossroads of international trade. Our story began with a clear vision: to bridge the gap between businesses and global markets with a level of precision, efficiency, and trust that was unmatched. From our roots in Egypt, we have grown into a sophisticated global network, offering end-to-end solutions that simplify the complexities of international supply chains.
               </p>
-              <p className="text-muted-foreground">
-                Over 42,000 dedicated employees, working in 17 regional clusters around the globe, deliver operational excellence — to provide viable answers to the most challenging supply chain questions. MCCED applies its renowned operational expertise to provide best-in-class services across its integrated worldwide network, where our focus is equally on general business and the specialist needs of the automotive, consumer & retail, energy, healthcare, industrial & aerospace and technology sectors.
+              <p className="text-muted-foreground mb-4">
+                Our team is composed of seasoned logistics professionals who possess a deep understanding of local regulations in the MENA region, combined with an extensive knowledge of global shipping routes and protocols. We are more than just a service provider; we are a dedicated partner committed to the success of our clients, ensuring that every shipment, no matter its size or destination, is handled with the utmost care and professionalism.
               </p>
-            </div>
-            
-            <div className="my-12">
-                 <div className="w-16 h-1 bg-primary mb-4"></div>
-                <h2 className="text-3xl font-bold font-headline mb-8">Our Core Values</h2>
-                <div className="grid md:grid-cols-2 gap-8">
-                    {coreValues.map((value) => (
-                        <div key={value.title} className="flex items-start gap-4">
-                            <div className="flex-shrink-0 mt-1">{value.icon}</div>
-                            <div>
-                                <h3 className="text-xl font-bold font-headline">{value.title}</h3>
-                                <p className="text-muted-foreground mt-2">{value.description}</p>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-xl font-bold font-headline mb-4">Our Mission</h3>
-                <p className="text-muted-foreground">To be the most trusted and efficient global logistics and transportation provider, delivering excellence and value to our customers, partners, and employees.</p>
+              <div className="my-12">
+                <div className="w-16 h-1 bg-primary mb-4"></div>
+                <h2 className="text-3xl font-bold font-headline mb-8">Logistics</h2>
+                <p className="text-muted-foreground">
+                  Logistics is the central nervous system of global trade, and at MCCED, we have perfected its science. Our approach to logistics extends far beyond simply moving goods from point A to point B. We meticulously plan, implement, and control the efficient, forward, and reverse flow and storage of goods, services, and related information between the point of origin and the point of consumption. This includes everything from initial project planning and route optimization to inventory management, warehousing, and distribution. Our logistics solutions are custom-built to fit the unique needs of each client, taking into account factors like cost, speed, security, and compliance. We manage the entire lifecycle of your shipment, ensuring every single step is synchronized and executed flawlessly, eliminating delays and reducing operational costs.
+                </p>
               </div>
-              <div>
-                <h3 className="text-xl font-bold font-headline mb-4">Our Vision</h3>
-                <p className="text-muted-foreground">To connect the world through smart and sustainable logistics, empowering businesses to grow and communities to thrive.</p>
+              <div className="my-12">
+                <div className="w-16 h-1 bg-primary mb-4"></div>
+                <h2 className="text-3xl font-bold font-headline mb-8">Our Mission</h2>
+                <p className="text-muted-foreground">
+                  Our mission is to be the indispensable link in our clients’ global supply chains by providing comprehensive, reliable, and cost-effective logistics solutions. We are driven to consistently exceed expectations through meticulous planning, transparent communication, and an unwavering commitment to operational excellence. We aim to leverage our strategic location in Egypt and our global network to empower businesses to thrive in an interconnected world. By focusing on innovation, customer-centric service, and continuous improvement, we strive to transform complex logistics challenges into seamless opportunities for growth and success. Our mission is to deliver not just cargo, but peace of mind.
+                </p>
+              </div>
+              <div className="my-12">
+                <div className="w-16 h-1 bg-primary mb-4"></div>
+                <h2 className="text-3xl font-bold font-headline mb-8">Our Vision</h2>
+                <p className="text-muted-foreground">
+                  Our vision is to become the recognized global leader in logistics and shipping, renowned for our innovation, integrity, and exceptional service. We envision a future where MCCED is the first and only choice for businesses seeking to navigate the international marketplace with confidence. We aspire to be at the forefront of industry technology, implementing cutting-edge solutions that provide unparalleled efficiency and real-time visibility for our clients. We see ourselves as a force for positive change, contributing to a more connected and sustainable global trade environment. Our vision is to build a legacy of excellence, rooted in Egypt, that reaches every corner of the world.
+                </p>
               </div>
             </div>
           </div>

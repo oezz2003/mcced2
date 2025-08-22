@@ -29,11 +29,11 @@ const serviceData = {
   },
   'air-freight': {
     title: 'Air Freight',
-    image: '/images/pexels-tima-miroshnichenko-6169002.jpg',
+    image: '/images/air1.jpg',
     aiHint: 'cargo plane tarmac sunset',
     description: [
-      "As a leader in the global air freight industry, we provide a full suite of services to meet your needs. We understand the importance of speed and reliability in air transport. Our extensive network of dedicated air freight specialists ensures your shipments are handled with expertise and precision.",
-      "From small parcels to oversized cargo, we have the capacity and flexibility to manage your shipments. We offer customized solutions, including temperature-controlled transport, hazardous materials handling, and high-value cargo security. Our advanced tracking technology provides real-time visibility, giving you peace of mind from takeoff to landing."
+      "For time-sensitive and high-value shipments, MCCED’s air freight services offer unmatched speed and security. We manage the entire air cargo process, from pickup at your location to final delivery at the destination airport. Our extensive network of airline partners allows us to secure optimal rates and space on flights worldwide, ensuring your urgent shipments depart and arrive as scheduled.",
+      "We handle all the intricate details of air freight, including booking, documentation, and compliance with international air transport regulations. Whether it’s perishable goods, sensitive electronics, or urgent samples, our air freight solutions are designed to deliver your cargo quickly, safely, and securely, providing you with real-time tracking and peace of mind throughout the journey."
     ],
     features: [
       'Global network with coverage of all major airports',
@@ -45,11 +45,11 @@ const serviceData = {
   },
   'sea-freight': {
     title: 'Sea Freight',
-    image: '/images/aerial-view-of-container-cargo-ship-with-container-2025-01-10-00-16-55-utc.jpg',
+    image: '/images/sea1.jpg',
     aiHint: 'container ship at port',
     description: [
-        "Our sea freight services offer a reliable and cost-effective solution for transporting large volumes of goods internationally. We manage a vast network of shipping lanes and carriers to ensure your cargo reaches its destination safely and on time. Whether you need Full Container Load (FCL) or Less than Container Load (LCL) services, we have you covered.",
-        "We handle all aspects of the shipping process, including documentation, customs brokerage, and inland transportation. Our team of experts is dedicated to providing tailored solutions that meet your specific supply chain requirements, ensuring a smooth and efficient journey for your goods across the oceans."
+        "Sea freight remains the most cost-effective solution for large-volume international shipping, and MCCED is an expert in navigating the world’s oceans. We offer a full range of sea freight services, including Full Container Load (FCL) for exclusive use of a container and Less than Container Load (LCL) for smaller shipments that can be consolidated with others.",
+        "Our relationships with major shipping lines ensure competitive rates and reliable sailing schedules from ports worldwide. From the moment your cargo leaves the port of origin to its arrival at the port of destination, we manage every step, including customs clearance, documentation, and ground transportation. Our sea freight services provide the capacity and affordability you need for your heavy or bulky shipments, without compromising on reliability."
     ],
     features: [
         'FCL and LCL options available',
@@ -61,11 +61,11 @@ const serviceData = {
   },
   'road-freight': {
     title: 'Road Freight',
-    image: '/images/pexels-tiger-lily-4480984.jpg',
+    image: '/images/road1.jpg',
     aiHint: 'fleet of trucks on highway',
     description: [
-        "Our road freight services provide flexible and efficient transportation for your goods across domestic and international borders. With a modern fleet and a network of trusted partners, we offer a range of solutions, including Full Truckload (FTL) and Less than Truckload (LTL) shipping. We are committed to providing reliable, on-time delivery for all your ground transport needs.",
-        "We leverage advanced logistics technology to optimize routes, track shipments, and provide you with complete visibility. Our services are designed to be scalable and can be customized to handle everything from single pallets to oversized loads, with a focus on safety and security every step of the way."
+        "Road freight is the vital last-mile link in any logistics chain, and MCCED’s ground transportation services are the best in the business. Our extensive network of carriers and modern fleet of vehicles ensures that your cargo is transported efficiently and securely across Egypt and the broader MENA region. We offer flexible road freight solutions, from dedicated full-truckload (FTL) services for large shipments to cost-effective less-than-truckload (LTL) options for smaller loads.",
+        "We specialize in coordinating ground transportation with our air and sea freight services, providing seamless multi-modal solutions. Our team monitors every shipment in real-time, ensuring timely delivery and providing you with constant updates, making road freight a reliable and predictable part of your supply chain."
     ],
     features: [
         'FTL and LTL shipping services',
@@ -75,14 +75,30 @@ const serviceData = {
         'GPS tracking on all vehicles'
     ]
   },
-   'rail-freight': {
-    title: 'Rail Freight',
-    image: '/images/pexels-artempodrez-5025667.jpg',
-    aiHint: 'freight train mountains',
+  'rail-freight': {
+   title: 'Rail Freight',
+   image: '/images/rail1.jpg',
+   aiHint: 'freight train mountains',
+  description: [
+    "For long-distance, high-volume domestic and international cargo, MCCED leverages the power of rail freight. Rail transportation is a highly efficient and environmentally friendly solution for moving large quantities of goods between major hubs. We specialize in integrating rail transport into a seamless multi-modal strategy, using it to connect ports to inland distribution centers or to move goods across vast distances within Egypt and beyond.",
+    "Our rail freight services are particularly beneficial for businesses looking to reduce shipping costs and their carbon footprint. We handle all aspects of the rail shipment, from loading and documentation to final delivery coordination, ensuring your cargo travels safely and economically as part of a well-orchestrated logistics plan."
+  ],
+  'customer-service': {
+    title: 'Customer Service',
+    image: '/images/pexels-fauxels-3183197.jpg',
+    aiHint: 'customer service team',
     description: [
-        "Rail freight is a cost-effective and environmentally friendly option for long-distance inland transportation. Our rail logistics services connect key industrial hubs, offering a reliable alternative to road transport for bulk and containerized goods. We provide seamless integration with other transport modes for a complete door-to-door solution.",
-        "With a focus on safety and efficiency, we manage all aspects of your rail shipments, from wagon allocation to terminal handling. Our network provides extensive coverage, and our team ensures your cargo moves smoothly along the tracks to its final destination."
+      "At MCCED, customer service is not a department; it's our philosophy. We believe that exceptional service is built on transparency, proactive communication, and a genuine commitment to our clients’ success. From the moment you contact us, you are assigned a dedicated logistics specialist who acts as your single point of contact, ready to answer questions, provide updates, and solve problems in real-time.",
+      "We provide real-time tracking and communication so you are always in the loop. Our team is available to assist you at every stage, providing peace of mind and building the long-term relationships that are the foundation of our success. We listen, we respond, and we deliver, because your satisfaction is our highest priority."
     ],
+    features: [
+      'Dedicated logistics specialist for every client',
+      'Real-time tracking and proactive communication',
+      '24/7 support and problem resolution',
+      'Personalized service and relationship building',
+      'Commitment to transparency and client success'
+    ]
+  },
     features: [
         'Cost-effective long-distance transport',
         'Environmentally friendly shipping option',

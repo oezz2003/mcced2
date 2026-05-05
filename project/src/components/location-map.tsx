@@ -8,7 +8,7 @@ export function LocationMap() {
     <section className="w-full relative">
       <div className="h-[500px] w-full">
         <iframe
-          src="https://maps.google.com/maps?q=10th%20of%20Ramadan%20City&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          src="https://maps.google.com/maps?q=30.1014056,31.3750745&z=17&ie=UTF8&iwloc=&output=embed"
           width="100%"
           height="100%"
           style={{ border: 0 }}
@@ -29,7 +29,7 @@ export function LocationMap() {
             <div className="md:col-span-2 grid grid-cols-1 sm:grid-cols-3 gap-6">
                 <div className="flex items-center gap-4">
                     <MapPin className="h-6 w-6 text-primary" />
-                    <p className="text-sm">10th of Ramadan City, Sharkia Governorate, Egypt</p>
+                    <p className="text-sm">22st El Shaheed Sayed Zakaria l Floor 3 ll Office 7. ll Sheraton ll Cairo.</p>
                 </div>
                 
                 <div className="flex items-center gap-4">

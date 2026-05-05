@@ -76,13 +76,21 @@ const serviceData = {
     ]
   },
   'rail-freight': {
-   title: 'Rail Freight',
-   image: '/images/rail1.jpg',
-   aiHint: 'freight train mountains',
-  description: [
-    "For long-distance, high-volume domestic and international cargo, MCCED leverages the power of rail freight. Rail transportation is a highly efficient and environmentally friendly solution for moving large quantities of goods between major hubs. We specialize in integrating rail transport into a seamless multi-modal strategy, using it to connect ports to inland distribution centers or to move goods across vast distances within Egypt and beyond.",
-    "Our rail freight services are particularly beneficial for businesses looking to reduce shipping costs and their carbon footprint. We handle all aspects of the rail shipment, from loading and documentation to final delivery coordination, ensuring your cargo travels safely and economically as part of a well-orchestrated logistics plan."
-  ],
+    title: 'Rail Freight',
+    image: '/images/rail1.jpg',
+    aiHint: 'freight train mountains',
+    description: [
+      "For long-distance, high-volume domestic and international cargo, MCCED leverages the power of rail freight. Rail transportation is a highly efficient and environmentally friendly solution for moving large quantities of goods between major hubs. We specialize in integrating rail transport into a seamless multi-modal strategy, using it to connect ports to inland distribution centers or to move goods across vast distances within Egypt and beyond.",
+      "Our rail freight services are particularly beneficial for businesses looking to reduce shipping costs and their carbon footprint. We handle all aspects of the rail shipment, from loading and documentation to final delivery coordination, ensuring your cargo travels safely and economically as part of a well-orchestrated logistics plan."
+    ],
+    features: [
+      'Cost-effective long-distance transport',
+      'Environmentally friendly shipping option',
+      'Block train and single wagon services',
+      'Intermodal connectivity with road and sea freight',
+      'Secure and reliable transit'
+    ]
+  },
   'customer-service': {
     title: 'Customer Service',
     image: '/images/pexels-fauxels-3183197.jpg',
@@ -97,14 +105,6 @@ const serviceData = {
       '24/7 support and problem resolution',
       'Personalized service and relationship building',
       'Commitment to transparency and client success'
-    ]
-  },
-    features: [
-        'Cost-effective long-distance transport',
-        'Environmentally friendly shipping option',
-        'Block train and single wagon services',
-        'Intermodal connectivity with road and sea freight',
-        'Secure and reliable transit'
     ]
   },
   'customs': {

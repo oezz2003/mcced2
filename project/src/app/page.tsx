@@ -320,7 +320,7 @@ export default function Home({
                 MCCED makes business flow. As one of the world's leading non-asset-based supply chain management companies, we design and implement industry-leading solutions in both freight management.
               </p>
               <p className="text-muted-foreground">
-                Over 42,000 dedicated employees, working in 17 regional clusters around the globe, deliver operational excellence — to provide viable answers to the most challenging supply chain questions.
+                Our global network and dedicated professionals work across regional clusters around the globe to deliver operational excellence — providing viable answers to the most challenging supply chain questions.
               </p>
               <div className="flex items-center gap-4 pt-4">
                 <div>
@@ -584,7 +584,7 @@ export default function Home({
                   WHAT MAKES US SPECIAL?
                 </h2>
                 <p className="mt-4 text-muted-foreground">
-                  Over 42,000 dedicated employees, working in 17 regional clusters around the globe, deliver operational excellence.
+                  Our dedicated global team works across regional clusters around the globe to deliver operational excellence and innovative logistics solutions.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-8">

@@ -64,14 +64,14 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-semibold tracking-wider uppercase">Contact Us</h3>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-              <li>10th of Ramadan City, Sharkia Governorate, Egypt</li>
+              <li>22st El Shaheed Sayed Zakaria, Floor 3, Office 7, Sheraton, Cairo</li>
               <li>ops@mcced.com</li>
               
             </ul>
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} MCCED Global Logistics. All rights reserved.</p>
+          <p>&copy; 2023 MCCED Global Logistics. All rights reserved.</p>
         </div>
       </div>
     </footer>

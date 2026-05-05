@@ -98,7 +98,7 @@ export default function TermsOfUsePage() {
                   <li>Restrict or object to processing, request data portability, or withdraw consent at any time.</li>
                 </ul>
                 <h3>Contact</h3>
-                <p>For privacy inquiries or to exercise your rights, contact: MCCED Group Data Privacy Office, 10th Of Ramadan City, EGYPT, Email: ops@mcced.com</p>
+                <p>For privacy inquiries or to exercise your rights, contact: MCCED Group Data Privacy Office, 22st El Shaheed Sayed Zakaria, Floor 3, Office 7, Sheraton, Cairo, EGYPT, Email: ops@mcced.com</p>
               </div>
             </AccordionContent>
           </AccordionItem>

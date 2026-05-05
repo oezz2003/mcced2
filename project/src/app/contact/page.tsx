@@ -12,12 +12,7 @@ export default function ContactPage() {
     {
       icon: <Building className="h-8 w-8 text-primary" />,
       title: "Main Office",
-      value: "Main office Egypt , new cairo "
-    },
-    {
-      icon: <Phone className="h-8 w-8 text-primary" />,
-      title: "Phone Number",
-      value: "+201002434197"
+      value: "22st El Shaheed Sayed Zakaria l Floor 3 ll Office 7. ll Sheraton ll Cairo."
     },
     {
       icon: <Mail className="h-8 w-8 text-primary" />,
@@ -27,7 +22,7 @@ export default function ContactPage() {
     {
       icon: <Clock className="h-8 w-8 text-primary" />,
       title: "Office Hours",
-      value: "Mon - Fri: 10:00 AM - 6:00 PM"
+      value: "Sun - Thu: 9:00 AM - 5:00 PM"
     },
   ];
 

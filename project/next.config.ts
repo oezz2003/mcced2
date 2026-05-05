@@ -5,9 +5,6 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   images: {
     remotePatterns: [
       {
@@ -18,6 +15,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  serverExternalPackages: ['@genkit-ai/googleai', 'genkit', 'zod-to-json-schema'],
 };
 
 export default nextConfig;
